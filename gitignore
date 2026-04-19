@@ -1,0 +1,31 @@
+# Build output
+build/
+anomaly
+*.o
+*.d
+
+# Screenshots
+Screenshots/
+*.ppm
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Clangd / compile commands
+.cache/
+compile_commands.json
+
+# Debug / profiling
+*.log
+core
+core.*
+perf.data
+perf.data.old
+
+# Local config
+.env
