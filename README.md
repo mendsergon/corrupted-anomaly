@@ -5,6 +5,8 @@
 ![platform](https://img.shields.io/badge/platform-Linux-lightgrey)
 ![gpu](https://img.shields.io/badge/GPU-OpenCL%201.2-orange)
 
+![preview](preview.jpg)
+
 A single-kernel OpenCL compute raymarcher rendering a procedurally-generated hollow organic anomaly: a breathing core pumping cardiac waves through a web of 48 curved veins attached to a perforated membrane, with drifting holes, shifting spike clusters, and thin cross-connections. Built from scratch in C++/OpenCL with no rendering libraries — GLFW for the window, GL compat-profile for the final texture blit, everything else is math in a `.cl` file. Designed and tuned on AMD RDNA4 (RX 9070 XT), Mesa 26.x.
 
 ## Features
